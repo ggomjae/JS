@@ -1,3 +1,5 @@
+var arr = []
+
 function fibonacci(n) {
     var pre = 0;
     var cur = 1;
@@ -14,6 +16,7 @@ function fibonacci(n) {
 ///////////////////////////////////////////////////////////////////////
   function fibonacci(num) {
     if(num < 2) return num;
+    if(arr[num]) return arr[num];
     return fibonacci(num-1) + fibonacci(num-2);
   }
   // 아래는 테스트로 출력해 보기 위한 코드입니다.
