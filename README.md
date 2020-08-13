@@ -1,4 +1,4 @@
-TodoList [intern proejct] 
+Make TodoList With Node.js & GraphQL 
 ==================== 
 
 ## Full Architecture
@@ -18,7 +18,7 @@ TodoList [intern proejct]
 
 ```kt
 
- --
+ex ) Context는 모든 GraphQL API 요청이 불릴 때마다 '항상' 실행되는 함수 
 
 ```
 
